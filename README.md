@@ -1,9 +1,7 @@
-# Emotion Recognition Using Convolutional Neural Networks (CNN)
+# Facial Mood Detection To Music-Recommender Using CNNs
 
 An emotion recognition model using Convolutional Neural Networks (CNNs) to classify facial emotions from images and recommend a song based on facial expression. The model is trained on a dataset containing images labeled with seven emotion categories: anger, disgust, fear, happiness, neutrality, sadness, and surprise.
 
-## Project Structure
-images/ train/ 0/ # Images of category 0 (e.g., angry) 1/ # Images of category 1 (e.g., disgust) ... validation/ 0/ # Validation images of category 0 1/ # Validation images of category 1 ... emotion_recognition.ipynb # Jupyter notebook for training and evaluation README.md # This file
 ## Dependencies
 
 The project requires the following Python libraries:
@@ -40,10 +38,11 @@ The model is trained using data augmentation techniques to improve generalizatio
 
 ```python
 model.save("emotion_recognition_model.h5")
+```
 To load a saved model:
-
+```python
 from tensorflow.keras.models import load_model
 model = load_model("emotion_recognition_model.h5"
 ```
-Evaluation
+### Evaluation
 The model's performance is evaluated on the validation dataset, with accuracy reported after each epoch.
