@@ -38,10 +38,12 @@ The model is trained using data augmentation techniques to improve generalizatio
 
 ### 4. Save/Load Model
 
-To save the trained model:
+```python
 model.save("emotion_recognition_model.h5")
 To load a saved model:
+
 from tensorflow.keras.models import load_model
-model = load_model("emotion_recognition_model.h5")
+model = load_model("emotion_recognition_model.h5"
+```
 Evaluation
 The model's performance is evaluated on the validation dataset, with accuracy reported after each epoch.
