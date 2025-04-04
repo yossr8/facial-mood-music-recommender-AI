@@ -1,28 +1,13 @@
 # facial-mood-music-recommender-AI
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emotion Recognition Using CNN</title>
-</head>
+
 <body>
 
-    <p>An emotion recognition model using Convolutional Neural Networks (CNNs) to classify facial emotions from images and then recommend a song based on the facial expression. The model is trained on a dataset containing images labeled with seven emotion categories: anger, disgust, fear, happiness, neutrality, sadness, and surprise.</p>
+    <p> An emotion recognition model using Convolutional Neural Networks (CNNs) to classify facial emotions from images and then recommend a song based on the facial expression. The model is trained on a dataset containing images labeled with seven emotion categories: anger, disgust, fear, happiness, neutrality, sadness, and surprise. </p>
 
     <h2>Project Structure</h2>
-    <pre>
-images/
-    train/
-        0/  # Images of category 0 (e.g., angry)
-        1/  # Images of category 1 (e.g., disgust)
-        ...
-    validation/
-        0/  # Validation images of category 0
-        1/  # Validation images of category 1
-        ...
-emotion_recognition.ipynb  # Jupyter notebook for training and evaluation
-README.md                 # This file
+        # This file
     </pre>
 
     <h2>Dependencies</h2>
